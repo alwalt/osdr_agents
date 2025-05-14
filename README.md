@@ -53,11 +53,6 @@ The `cp_agent.config.yaml` file controls:
    python first_example/main.py
    ```
 
-Or launch the MCP server directly:
-```bash
-python osdr_mcp/main_simple.py
-```
-
 ## 🧩 Integration Notes
 
 This architecture is built for flexibility. You can toggle between document Q&A, RAG search, or custom analysis tools. A mode switch or UI toggle is ideal for user-facing integration. Support for Milvus-based RAG via MCP is on the roadmap.
