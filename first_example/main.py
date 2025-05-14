@@ -16,26 +16,26 @@ from mcp_agent.workflows.llm.llm_selector import ModelPreferences
 # from mcp_agent.workflows.llm.augmented_llm_anthropic import AnthropicAugmentedLLM
 from mcp_agent.workflows.llm.augmented_llm_openai import OpenAIAugmentedLLM
 
-settings = Settings(
-    execution_engine="asyncio",
-    logger=LoggerSettings(type="file", level="debug"),
-    mcp=MCPSettings(
-        servers={
-            "fetch": MCPServerSettings(
-                command="uvx",
-                args=["mcp-server-fetch"],
-            ),
-            "filesystem": MCPServerSettings(
-                command="npx",
-                args=["-y", "@modelcontextprotocol/server-filesystem"],
-            ),
-        }
-    ),
-    openai=OpenAISettings(
-        api_key="ollama",
-        default_model="llama3.1",
-    ),
-)
+# settings = Settings(
+#     execution_engine="asyncio",
+#     logger=LoggerSettings(type="file", level="debug"),
+#     mcp=MCPSettings(
+#         servers={
+#             "fetch": MCPServerSettings(
+#                 command="uvx",
+#                 args=["mcp-server-fetch"],
+#             ),
+#             "filesystem": MCPServerSettings(
+#                 command="npx",
+#                 args=["-y", "@modelcontextprotocol/server-filesystem"],
+#             ),
+#         }
+#     ),
+#     openai=OpenAISettings(
+#         api_key="ollama",
+#         default_model="llama3.1",
+#     ),
+# )
 
 # Settings can either be specified programmatically,
 # or loaded from mcp_agent.config.yaml/mcp_agent.secrets.yaml
