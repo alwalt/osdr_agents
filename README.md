@@ -1,6 +1,6 @@
 # 🧠 OSDR Parallel Workflow (MCP)
 
-This repository demonstrates a parallel agent-based workflow using the [Model Context Protocol (MCP)](https://modelcontext.org/) to analyze NASA OSDR (Open Science Data Repository) biological datasets.
+This repository demonstrates a parallel agent-based workflow using the [Model Context Protocol (MCP)]([https://modelcontext.org/](http://modelcontextprotocol.io/)) to analyze NASA OSDR (Open Science Data Repository) biological datasets.
 
 Specifically, it uses a fan-out/fan-in agent design to:
 - 🛰 Fetch metadata for a given study
@@ -53,11 +53,7 @@ The `cp_agent.config.yaml` file controls:
    python first_example/main.py
    ```
 
-## 🧩 Integration Notes
-
-This architecture is built for flexibility. You can toggle between document Q&A, RAG search, or custom analysis tools. A mode switch or UI toggle is ideal for user-facing integration. Support for Milvus-based RAG via MCP is on the roadmap.
-
 ## 📚 Resources
 
-- [Model Context Protocol](https://modelcontext.org/)
+- [Model Context Protocol]([https://modelcontext.org/](http://modelcontextprotocol.io/))
 - [NASA OSDR API](https://visualization.osdr.nasa.gov/biodata/api/v2/dataset/)
