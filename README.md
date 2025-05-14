@@ -16,7 +16,7 @@ A simple agent that uses two official MCP servers:
 - `mcp-server-fetch` (headless browser)
 - `mcp-server-filesystem`
 
-### `osdr_mcp/`
+### `osdr_example/`
 Custom MCP server exposing tools for interacting with OSDR data:
 - `osdr_fetch_metadata`: Fetches metadata for a given OSDR dataset
 - `osdr_find_by_organism`: Filters studies by organism
