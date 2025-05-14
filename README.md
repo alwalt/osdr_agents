@@ -1,4 +1,4 @@
-# 🧠 OSDR Parallel Workflow (MCP)
+# 🧠 OSDR Agent Workflows (MCP)
 
 This repository demonstrates a parallel agent-based workflow using the [Model Context Protocol (MCP)]([https://modelcontext.org/](http://modelcontextprotocol.io/)) to analyze NASA OSDR (Open Science Data Repository) biological datasets.
 
