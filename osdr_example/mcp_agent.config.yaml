@@ -22,7 +22,7 @@ mcp:
             "command": "uv",
             "args": [
                 "--directory",
-                "/Users/woalvara/mcp_agents/osdr_example/osdr_mcp/",
+                "../osdr_mcp/",
                 "run",
                 "main_simple.py"
             ]
