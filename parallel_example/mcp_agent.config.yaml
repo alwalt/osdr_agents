@@ -22,7 +22,7 @@ mcp:
             command: "uv",
             args: [
                 "--directory",
-                "/Users/woalvara/mcp_agents/parallel_example/osdr_mcp/",
+                "../osdr_mcp/",
                 "run",
                 "osdr_data_fetch.py"
             ]
@@ -31,7 +31,7 @@ mcp:
           command: "uv",
           args: [
             "--directory",
-            "/Users/woalvara/mcp_agents/parallel_example/osdr_mcp/",
+            "../osdr_mcp/",
             "run",
             "osdr_viz_tools.py"
           ]
