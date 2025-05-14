@@ -11,14 +11,6 @@ The agents are orchestrated in parallel using a `ParallelLLM` workflow and run o
 
 ---
 
-## 🛠 Project Structure
-├── main.py                  # Main script to run the workflow
-├── osdr_mcp/
-│   ├── osdr_data_fetch.py   # Tool for fetching OSDR dataset metadata
-│   └── osdr_viz_tools.py    # Tool for RNA-seq analysis and plotting
-├── config.yaml              # MCP runtime configuration file
-└── logs/                    # (Auto-generated) logs from each run
-
 ### `first_example/`
 A simple agent that uses two official MCP servers:
 - `mcp-server-fetch` (headless browser)
