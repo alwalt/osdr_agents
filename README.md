@@ -22,7 +22,7 @@ Custom MCP server exposing tools for interacting with OSDR data:
 - `osdr_find_by_organism`: Filters studies by organism
 - Additional tools (e.g. RNA analysis) live in `osdr_viz_tools`
 
-### `parallel_example/
+### `parallel_example/`
 The parallel agent configuration is defined in `main.py` and demonstrates a fan-out/fan-in model using three distinct agents:
 - **metadata_agent**: Fetches dataset metadata via the `osdr_data_fetch` server.
 - **quant_analysis_agent**: Analyzes unnormalized RNA-seq count data using `osdr_viz_tools`.
